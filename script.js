@@ -15,7 +15,7 @@ function firstNonRepeatedChar(str) {
 
 	/ second seizee firl
 	for(let char of str) {
-		of(charCount[char] === 1) {
+		if(charCount[char] === 1) {
 			return char
 		}
 	}
